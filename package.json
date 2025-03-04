@@ -4,18 +4,30 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-menu/menu": "1.0.2",
     "expo": "~52.0.37",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.7"
+    "react-native": "~0.77.1",
+    "react-native-ios-context-menu": "3.0.0-23",
+    "react-native-ios-utilities": "5.0.0-58",
+    "zeego": "^3.0.0-alt.1",
+    "react-native-reanimated": "~3.16.7",
+    "react-native-gesture-handler": "~2.22.0",
+    "react-native-screens": "~4.8.0",
+    "react-native-safe-area-context": "~5.1.0",
+    "react-native-webview": "~13.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
